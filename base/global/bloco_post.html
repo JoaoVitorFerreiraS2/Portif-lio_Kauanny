@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div class="caixa">
+        <div class="sub_caixa">
+            <img src="silhueta.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .caixa{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30vw;
+        height: 80vh;
+        border: 2px solid rgba(0, 126, 175, 0.801);
+        background-color: rgba(0, 126, 175, 0.801);
+        border-radius: 100px 50px;
+    }
+
+    .sub_caixa{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        border: 2px solid rgba(0, 68, 95, 0.938);
+        background-color: rgb(0, 0, 0);
+        width: 95%;
+        height: 95%;
+        border-radius: 100px 50px;
+    }
+
+    .sub_caixa img{
+        height: 80%;
+        width: 130%;
+        filter: drop-shadow(3px 3px red) sepia(70%) drop-shadow(-3px -3px blue);
+    }
+</style>
