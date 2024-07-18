@@ -19,7 +19,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.651);
     position: fixed;
     width: 100%;
     top: 0;
@@ -29,13 +29,14 @@ header {
 img{
     width: auto;
     height: 100%;
-    padding: 1%;
+    padding: 0.5%;
     filter: drop-shadow(2px 1px red) sepia(70%) drop-shadow(-1px -1px blue);
 }
 
 header h1{
     color: rgba(0, 0, 0, 0.537);
     font-size: 8vh;
+    padding: 1%;
     font-family: 'Poppins', sans-serif;
 }
 
