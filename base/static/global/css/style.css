@@ -27,7 +27,7 @@ header {
 }
 
 img{
-    width: 8%;
+    width: auto;
     height: 100%;
     padding: 1%;
     filter: drop-shadow(2px 1px red) sepia(70%) drop-shadow(-1px -1px blue);
